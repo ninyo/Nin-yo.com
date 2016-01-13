@@ -1,0 +1,205 @@
+/*
+==============================================================================
+COLOR
+==============================================================================
+*/
+
+$color_ninyo:       #2d9ad2;
+$color_rich:        #363639;
+
+$color_photoshop:	#00bcd9;
+$color_indesign:	lighten(#cc5e81, 5%);
+$color_illustrator:	#ffac90;
+$color_premierepro:	lighten(#71567c, 15%);
+
+
+/*==========================================================================*/
+
+
+
+
+
+/*
+==============================================================================
+LAYOUT SETUPS
+==============================================================================
+*/
+@mixin body {
+	p {font-size:14px;}
+	h1 {font-size:28px;}
+	h2 {font-size:24px;}
+	h3 {font-size:18px;}
+	h4 {font-size:16px;}
+	}
+
+@mixin wrap {
+	width:100%;
+	}
+
+$gap_sm:10px;
+$gap_md:20px;
+
+$mobile:440px;
+//
+@mixin mobile {width:91.666666666667%;}
+	@mixin mobile-2 {
+		width:($mobile-$gap_sm)/2;
+		margin-right:$gap_sm;
+		&:nth-child(2n+2) {margin-right:0;}
+		}
+	@mixin mobile-3 {
+		width:($mobile-$gap_sm(2))/3;
+		margin-right:$gap_sm;
+		&:nth-child(3n+3) {margin-right:0;}
+		}
+	@mixin mobile-4 {
+		width:($mobile-$gap_sm(3))/4;
+		margin-right:$gap_sm;
+		&:nth-child(4n+4) {margin-right:0;}
+		}
+
+$tablet:760px;
+//
+@mixin tablet {width:89.411764705882%;}
+	@mixin tablet-2 {
+		width:($tablet-$gap_sm)/2;
+		margin-right:$gap_sm;
+		&:nth-child(2n+2) {margin-right:0;}
+		}
+	@mixin tablet-3 {
+		width:($tablet-$gap_sm(2))/3;
+		margin-right:$gap_sm;
+		&:nth-child(3n+3) {margin-right:0;}
+		}
+	@mixin tablet-4 {
+		width:($tablet-$gap_sm(3))/4;
+		margin-right:$gap_sm;
+		&:nth-child(4n+4) {margin-right:0;}
+		}
+
+$desktop:1000px;
+//
+@mixin desktop {width:1000px;}
+	@mixin desktop-2 {
+		width:($desktop-$gap_sm)/2;
+		margin-right:$gap_sm;
+		&:nth-child(2n+2) {margin-right:0;}
+		}
+	@mixin desktop-3 {
+		width:($desktop-$gap_sm(2))/3;
+		margin-right:$gap_sm;
+		&:nth-child(3n+3) {margin-right:0;}
+		}
+	@mixin desktop-4 {
+		width:($desktop-$gap_sm(3))/4;
+		margin-right:$gap_sm;
+		&:nth-child(4n+4) {margin-right:0;}
+		}
+
+@mixin reset {
+	margin:0;padding:0;
+	list-style-type:none;
+	text-decoration:none;
+	}
+
+@mixin reset_intput {
+	border:0;
+	background:none;
+	margin:0;padding:0;
+	}
+
+@mixin center {
+	margin: 0 auto;
+	}
+
+//apply to wrap to push inner in selected direction
+@mixin pushdown-10 {padding-top:10px;}
+@mixin pushdown-20 {padding-top:20px;}
+@mixin pushdown-30 {padding-top:30px;}
+@mixin bottom-10 {padding-bottom:10px;}
+@mixin bottom-20 {padding-bottom:20px;}
+@mixin bottom-30 {padding-bottom:30px;}
+
+/*==========================================================================*/
+
+
+
+
+
+/*
+==============================================================================
+SHORTHAND
+==============================================================================
+*/
+
+@mixin vp($name, $value) {
+	@each $vendor in ('-webkit-', '-moz-', '-ms-', '-o-', '') {#{$vendor}#{$name}: #{$value};}
+	}
+
+//@include vp('transition', '.25s');
+//@include vp('box-sizing', 'border-box'); 
+//@include vp('border-radius', '3px'); 
+//@include vp('box-shadow', '0 0 3px #555'); 
+
+@mixin hide {
+	height:0;
+	opacity:0;
+	}
+@mixin unhide {
+	height:initial;
+	opacity:1;
+	}
+@mixin clearfix {
+	&:after {
+	content: "";
+	display: table;
+	clear: both;
+	}}
+
+/*==========================================================================*/
+
+
+
+
+
+/*
+==============================================================================
+FONT SETUP
+==============================================================================
+*/
+
+//ex @include font-sans1-?;
+@mixin font-sans1-r {font-family:'Open Sans', sans-serif; font-weight:300;}
+@mixin font-sans1-i {font-family:'Open Sans', sans-serif; font-weight:300; font-style:italic;}
+@mixin font-sans1-m {font-family:'Open Sans', sans-serif; font-weight:400;}
+@mixin font-sans1-b {font-family:'Open Sans', sans-serif; font-weight:600;}
+@mixin font-sans1-x {font-family:'Open Sans', sans-serif; font-weight:700;}
+
+//ex @include font-sans2-?;
+@mixin font-sans2-r {font-family:'Fira Sans', sans-serif; font-weight:300;}
+@mixin font-sans2-i {font-family:'Fira Sans', sans-serif; font-weight:300; font-style:italic;}
+@mixin font-sans2-m {font-family:'Fira Sans', sans-serif; font-weight:400;}
+@mixin font-sans2-b {font-family:'Fira Sans', sans-serif; font-weight:600;}
+@mixin font-sans2-x {font-family:'Fira Sans', sans-serif; font-weight:700;}
+
+/*==========================================================================*/
+
+
+
+
+
+/*
+==============================================================================
+FX SETUP
+==============================================================================
+*/
+
+@mixin fx-button_1 {}
+@mixin fx-button_2 {}
+@mixin fx-button_3 {}
+@mixin fx-list_1 {}
+@mixin fx-list_2 {}
+@mixin fx-list_3 {}
+
+/*==========================================================================*/
+
