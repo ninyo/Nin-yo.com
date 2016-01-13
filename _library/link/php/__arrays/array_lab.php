@@ -10,22 +10,347 @@ $array_lab = array();
 //  Here you'll be placing inspirational work as close to a square ratio as you can and these will loop. 
 //  Always add a new element to the array from the top, so it only displays the most recent 30
 
-
-?>
-<?
 // $array_lab[] = array(
 // 	'ownername' => '',
 // 	'linktopage' => '',
 // 	// 'description' => "",
 // 	'image' => array(
-// 		'_library/img/thankyou/' => array(),
-// 		'_library/img/thankyou/' => array(),
-// 		'_library/img/thankyou/' => array(),
-// 		'_library/img/thankyou/' => array(),
+// 		'_library/img/thankyou/imagename' => array(),
+// 		'_library/img/thankyou/imagename' => array(),
+// 		'_library/img/thankyou/imagename' => array(),
+// 		'_library/img/thankyou/imagename' => array(),
 // 		),
 // );
+
 ?>
 <?
+$array_lab[] = array(
+	'ownername' => 'alesnesetril',
+	'linktopage' => 'www.behance.net/alesnesetril',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/42b83827925873.55d33a1f14055.gif' => array(),
+		'_library/img/thankyou/2015-11-10_5.40.13.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'alvarofb',
+	'linktopage' => 'www.behance.net/alvarofb',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-10-23_2.19.02.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.19.14.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.19.24.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.19.45.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'andreclark',
+	'linktopage' => 'www.behance.net/AndreClark',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-10_5.40.39.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.41.03.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.41.17.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'apostol',
+	'linktopage' => 'www.behance.net/apostol',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-10_5.34.44.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.35.08.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.35.19.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.35.33.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'camillepalandjian',
+	'linktopage' => 'www.behance.net/CamillePalandjian',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-12-17_10.41.02.png' => array(),
+		'_library/img/thankyou/2015-12-17_10.41.11.png' => array(),
+		'_library/img/thankyou/2015-12-17_10.41.24.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'daanbotlek',
+	'linktopage' => 'www.behance.net/daanbotlek',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/1c1aa6aaa6ac6010329b76dd7a3bb025.gif' => array(),
+		'_library/img/thankyou/9e672f527a78e81e38b22a39f4d42afd.gif' => array(),
+		'_library/img/thankyou/29e8f270010c2d52905b01ac771af642.gif' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'designspiration',
+	'linktopage' => 'finished',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-10-20_10.45.40.png' => array(),
+		'_library/img/thankyou/2015-10-20_10.45.58.png' => array(),
+		'_library/img/thankyou/2015-10-20_10.46.57.png' => array(),
+		'_library/img/thankyou/2015-10-20_10.47.14.png' => array(),
+		'_library/img/thankyou/2015-10-20_10.47.40.png' => array(),
+		'_library/img/thankyou/2015-10-20_10.47.56.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.50.22.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.50.32.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.50.58.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.51.21.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.53.19.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.53.26.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.53.31.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.53.41.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.53.57.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.26.24.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.26.43.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.26.49.png' => array(),
+		'_library/img/thankyou/2015-10-23_2.26.57.png' => array(),
+		'_library/img/thankyou/2015-10-28_10.19.19.png' => array(),
+		'_library/img/thankyou/2015-10-28_10.19.33.png' => array(),
+		'_library/img/thankyou/2015-10-28_10.19.40.png' => array(),
+		'_library/img/thankyou/2015-10-28_10.19.49.png' => array(),
+		'_library/img/thankyou/2015-10-28_10.19.57.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.52.48.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.52.51.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.53.03.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.53.09.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.53.36.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.53.58.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.54.05.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.54.12.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.54.18.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.54.25.png' => array(),
+		'_library/img/thankyou/2015-11-03_9.54.34.png' => array(),
+		'_library/img/thankyou/2015-11-05_6.58.07.png' => array(),
+		'_library/img/thankyou/2015-11-05_6.58.15.png' => array(),
+		'_library/img/thankyou/2015-11-05_6.58.30.png' => array(),
+		'_library/img/thankyou/2015-11-05_6.58.47.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.34.08.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.34.19.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.34.27.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.34.40.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.34.57.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.35.11.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.33.33.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.33.37.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.33.43.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.33.53.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.33.57.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.04.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.11.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.18.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.25.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.32.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.38.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.34.49.png' => array(),
+		'_library/img/thankyou/2015-12-03_5.46.33.png' => array(),
+		'_library/img/thankyou/2015-12-03_5.46.40.png' => array(),
+		'_library/img/thankyou/2015-12-03_5.47.25.png' => array(),
+		'_library/img/thankyou/2015-12-03_5.47.37.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.00.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.20.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.24.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.27.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.35.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.44.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.47.png' => array(),
+		'_library/img/thankyou/2015-12-07_11.44.51.png' => array(),
+		'_library/img/thankyou/2015-12-10_3.15.23.png' => array(),
+		'_library/img/thankyou/2015-12-10_3.15.40.png' => array(),
+		'_library/img/thankyou/2015-12-10_3.16.03.png' => array(),
+		'_library/img/thankyou/2015-12-10_3.16.20.png' => array(),
+		'_library/img/thankyou/2015-12-21_3.19.14.png' => array(),
+		'_library/img/thankyou/2015-12-21_3.19.33.png' => array(),
+		'_library/img/thankyou/2015-12-21_3.19.43.png' => array(),
+		'_library/img/thankyou/2015-12-21_3.20.14.png' => array(),
+		'_library/img/thankyou/2016-01-13_8.08.28.png' => array(),
+		'_library/img/thankyou/2016-01-13_8.08.48.png' => array(),
+		'_library/img/thankyou/2016-01-13_8.08.57.png' => array(),
+		'_library/img/thankyou/2016-01-13_8.09.11.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'ellyos',
+	'linktopage' => 'www.behance.net/Ellyos',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-10_5.37.35.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.37.39.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'ikudarsk',
+	'linktopage' => 'www.behance.net/ikudarsk',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/d1afb54b640b78511c8e8763ef403187.gif' => array(),
+		'_library/img/thankyou/2015-10-22_10.48.27.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.48.39.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.48.45.png' => array(),
+		'_library/img/thankyou/2015-10-22_10.48.55.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'ingzawadzki',
+	'linktopage' => 'www.behance.net/ingzawadzki',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-10_5.41.33.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.41.43.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.41.58.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.42.12.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.42.20.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'khramov',
+	'linktopage' => 'www.behance.net/khramov',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/fd327231709513.565f0311a6c47.gif' => array(),
+		'_library/img/thankyou/3b67d450e7b82becd8b7b2e291b2f7bf.jpg' => array(),
+		'_library/img/thankyou/2016-01-13_8.16.18.png' => array(),
+		'_library/img/thankyou/2016-01-13_8.16.32.png' => array(),
+		'_library/img/thankyou/2016-01-13_8.16.42.png' => array(),
+		'_library/img/thankyou/2016-01-13)8.16.58.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'kissmiklos',
+	'linktopage' => 'www.behance.net/KissMiklos',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-10-19_7.00.21.png' => array(),
+		'_library/img/thankyou/2015-10-19_7.00.33.png' => array(),
+		'_library/img/thankyou/2015-10-19_7.00.43.png' => array(),
+		'_library/img/thankyou/2015-10-19_7.00.56.png' => array(),
+		'_library/img/thankyou/2015-10-19_7.01.02.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'luigidurante',
+	'linktopage' => 'www.behance.net/LuigiDurante',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-09_4.38.04.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.38.09.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.38.14.png' => array(),
+		'_library/img/thankyou/2015-11-09_4.38.31.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'maxdmytriv',
+	'linktopage' => 'www.behance.net/MaxDmytriv',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-10_5.36.34.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.36.40.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.36.47.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'mribas',
+	'linktopage' => 'www.behance.net/mribas',
+	'description' => "this would be great to place as a portfolio. that way, you can add as you gain more experience. this must be created by hand, but maybe more simple than this.",
+	'image' => array(
+		'_library/img/thankyou/2015-10-19_6.55.24.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.56.34.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.56.42.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.56.53.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.57.02.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.57.09.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.57.15.png' => array(),
+		'_library/img/thankyou/2015-10-19_6.57.24.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'sonsofgallipoli',
+	'linktopage' => 'www.sonsofgallipoli.com',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-12-17_10.44.44.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'stoilovskikh',
+	'linktopage' => 'www.behance.net/stoilovskikh',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/6256b030460543.562490368e387.gif' => array(),		
+		'_library/img/thankyou/2015-11-10_5.33.04.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.33.35.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.33.40.png' => array(),
+		'_library/img/thankyou/2015-11-10_5.33.59.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'studiomut',
+	'linktopage' => 'www.behance.net/studiomut',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-02_11.19.46.png' => array(),
+		'_library/img/thankyou/2015-11-02_11.19.57.png' => array(),
+		'_library/img/thankyou/2015-11-02_11.20.02.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'studiopilote',
+	'linktopage' => 'www.behance.net/studiopilote',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-30_10.37.51.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.37.54.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.38.05.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.38.10.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'thiscolossal',
+	'linktopage' => 'thiscolossal',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/romain-1.gif' => array(),
+		'_library/img/thankyou/romain-2.gif' => array(),
+		'_library/img/thankyou/romain-8.gif' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'uncharted',
+	'linktopage' => 'uncharted.sunbrella.com/',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-12-21_3.22.35.png' => array(),
+		'_library/img/thankyou/2015-12-21_3.23.09.png' => array(),
+		'_library/img/thankyou/2015-12-21_3.23.26.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'weixianwen',
+	'linktopage' => 'www.behance.net/WEIXIANWEN',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-11-30_10.36.25.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.36.37.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.36.43.png' => array(),
+		'_library/img/thankyou/2015-11-30_10.36.56.png' => array(),
+		),
+	);
+$array_lab[] = array(
+	'ownername' => 'youzhang',
+	'linktopage' => 'www.behance.net/youzhang',
+	// 'description' => "",
+	'image' => array(
+		'_library/img/thankyou/2015-10-28_10.29.41.png' => array(),
+		'_library/img/thankyou/2015-10-28_10.29.53.png' => array(),
+		),
+	);
+
+// January 2016 starts above ——————————————————————————————————————————————————————————//
+
 $array_lab[] = array(
 	'ownername' => 'bienalmx',
 	'linktopage' => 'www.behance.net/BienalMX',
@@ -114,8 +439,9 @@ $array_lab[] = array(
 		'_library/img/thankyou/2015-10-14_10.56.37.png' => array('elements','illustration','artwork','cover','poster','typography'),
 		),
 );
-?>
-<?
+
+// November 2015 starts above ——————————————————————————————————————————————————————————//
+
 $array_lab[] = array(
 	'ownername' => 'amanda-girod',
 	'linktopage' => 'www.behance.net/Amanda-Girod',
